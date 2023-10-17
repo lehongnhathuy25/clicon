@@ -11,4 +11,21 @@ app.get('/', (req, res) => {
     res.render('home');
 });
 
+app.get('/search', (req, res) => {
+    res.render('search')
+});
+
+app.get('/news', (req, res) => {
+    res.render('news');
+});
+
+app.post('/search', (req, res) => {
+    console.log(req.body.q)
+    res.send('');
+});
+
+app.use(express.urlencoded ({
+    extended:true
+}))
+
 app.listen(3000);
