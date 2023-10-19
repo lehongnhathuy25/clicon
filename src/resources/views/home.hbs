@@ -1,1 +1,35 @@
+{{!-- <div class="mt-4">
+    <form method="get" action="/news">
+    <div class="form-group">
+        <lable for="ExampleInputEmail" >Từ khoá</lable>
+        <input type="text" name="Fullname">
+        <input type="text" name="age">
+        <input type="text" class="form-control" name="q" id="ExampleInputEmail" aria-describedby="EmailHello">   
 
+    </div>
+
+    <button type="Submit" class="btn btn-primary" >Tìm kiếm</button>
+</form>
+</div> --}}
+<div class="mt-4">
+    <div class="row">
+        {{#each courses}}
+        <div class="col-sm-6 col-lg-4">
+            <div class="card">
+            <img class="card-img-top" src="{{this.thumbnail}}" alt="card image cap" />
+            <div class="card-body">
+                <h5 class="card-title">
+                    {{this.name}}
+                </h5>
+                <p class="card-text">
+                    {{this.description}}
+                </p>
+                <a href="#" class="btn-btn-primary">
+                    Mua khoá học
+                </a>
+            </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
