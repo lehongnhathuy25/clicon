@@ -16,6 +16,7 @@ app.use(
 app.use(bodyParser.json());
 app.engine('hbs', engine({extname: '.hbs'}));
 app.set('view engine', 'hbs');
+app.use(express.static(path.join(__dirname, 'public')));
 app.set('views', path.join(__dirname,'resources/views'));
 route(app)
 // app.get('/', (req, res) => {
