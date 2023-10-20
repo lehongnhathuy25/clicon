@@ -80,6 +80,12 @@ li{
 .mr-24{
     margin-right: 2.4rem;
 }
+.mr-8{
+    margin-right: .8rem;
+}
+.mr-2{
+    margin-right: .2rem;
+}
 .position-relative{
     position: relative;
 }

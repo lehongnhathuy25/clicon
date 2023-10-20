@@ -94,4 +94,17 @@
   color: var(--blue-primary);
 }
 
+.categories {
+  padding: 1.6rem;
+  border-bottom: 0.1rem solid var(--gray-primary);
+}
+.categories-item {
+  margin-right: 2.4rem;
+  cursor: pointer;
+}
+.categories-item.active {
+  background-color: #e5e6e7;
+  padding: 1.4rem 2.4rem;
+}
+
 /*# sourceMappingURL=app.css.map */
