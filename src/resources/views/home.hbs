@@ -1,4 +1,4 @@
-{{!-- <div class="mt-4">
+{{! <div class="mt-4">
     <form method="get" action="/news">
     <div class="form-group">
         <lable for="ExampleInputEmail" >Từ khoá</lable>
@@ -10,7 +10,7 @@
 
     <button type="Submit" class="btn btn-primary" >Tìm kiếm</button>
 </form>
-</div> --}}
+</div> }}
 {{!-- <div class="mt-4">
     <div class="row">
         {{#each courses}}
@@ -34,38 +34,190 @@
     </div>
 </div> --}}
 
-{{!-- categories --}}
-<div class="categories">
-  <div class="container d-flex justify-content-between">
-    <div class="categories-list d-flex align-center">
-          <div class="categories-item  active d-flex align-center">
-            <span class="mr-8 ">All Category</span>
-           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-<path d="M13 6L8 11L3 6" stroke="#191C1F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-          </div>
-           <div class="categories-item d-flex align-center">
-              <img class="mr-2"  src="images/MapPinLine.svg" />
-            <span>Track Order</span>
-          </div>
-           <div class="categories-item d-flex align-center">
-              <img class="mr-2" src="images/ArrowsCounterClockwise.svg" />
-            <span>Compare</span>
-          
-          </div>
-           <div class="categories-item d-flex align-center">
-             <img class="mr-2" src="images/Headphones.svg" />
-            <span>Customer Support</span>
-           
-          </div>
-           <div class="categories-item d-flex align-center">
-             <img class="mr-2" src="images/Info.svg" />
-            <span>Need Help</span>
-          </div>
+{{! categories }}
+<div class='categories'>
+  <div class='container d-flex justify-content-between'>
+    <div class='categories-list d-flex align-center'>
+      <div class='categories-item  active d-flex align-center'>
+        <span class='mr-8'>
+          All Category
+        </span>
+        <svg
+          xmlns='http://www.w3.org/2000/svg'
+          width='16'
+          height='16'
+          viewBox='0 0 16 16'
+          fill='none'
+        >
+          <path
+            d='M13 6L8 11L3 6'
+            stroke='#191C1F'
+            stroke-width='1.5'
+            stroke-linecap='round'
+            stroke-linejoin='round'
+          ></path>
+        </svg>
+      </div>
+      <div class='categories-item d-flex align-center'>
+        <img class='mr-2' src='images/MapPinLine.svg' />
+        <span>
+          Track Order
+        </span>
+      </div>
+      <div class='categories-item d-flex align-center'>
+        <img class='mr-2' src='images/ArrowsCounterClockwise.svg' />
+        <span>
+          Compare
+        </span>
+      </div>
+      <div class='categories-item d-flex align-center'>
+        <img class='mr-2' src='images/Headphones.svg' />
+        <span>
+          Customer Support
+        </span>
+      </div>
+      <div class='categories-item d-flex align-center'>
+        <img class='mr-2' src='images/Info.svg' />
+        <span>
+          Need Help
+        </span>
+      </div>
     </div>
-    <div class="contact-number d-flex align-center">
-      <img class="mr-8" src="images/PhoneCall.svg"/>
-      <span>+1-202-555-0104</span>
+    <div class='contact-number d-flex align-center'>
+      <img class='mr-8' src='images/PhoneCall.svg' />
+      <span>
+        +1-202-555-0104
+      </span>
+    </div>
+  </div>
+</div>
+{{! ------- }}
+
+{{! banner }}
+
+<div class='banner'>
+  <div class='container'>
+    <div class='b-left d-flex position-relative'>
+      <div class='swiper mySwiper'>
+        <div class='swiper-wrapper'>
+          <div class='swiper-slide'>
+            <div
+              class='banner-list d-flex  align-center '
+            >
+              <div class='banner-intro'>
+                <div class='banner-tt'>
+                  THE BEST PLACE TO PLAY
+                </div>
+                <div class='banner-name'>
+                  Xbox Consoles
+                </div>
+                <div class='banner-ct'>
+                  Save up to 50% on select Xbox games. Get 3 months of PC Game Pass for $2 USD.
+                </div>
+                <button class='btn shop-now'>
+                  <a class='btn-title' href=''>
+                    <span>
+                      SHOP NOW
+                    </span>
+                    <span class='icon'>
+                      <svg
+                        xmlns='http://www.w3.org/2000/svg'
+                        width='24'
+                        height='24'
+                        viewBox='0 0 24 24'
+                        fill='none'
+                      >
+                        <path
+                          d='M3.75 12H20.25'
+                          stroke='white'
+                          stroke-width='1.5'
+                          stroke-linecap='round'
+                          stroke-linejoin='round'
+                        ></path>
+                        <path
+                          d='M13.5 5.25L20.25 12L13.5 18.75'
+                          stroke='white'
+                          stroke-width='1.5'
+                          stroke-linecap='round'
+                          stroke-linejoin='round'
+                        ></path>
+                      </svg>
+                    </span>
+                  </a>
+                </button>
+              </div>
+              <div class='banner-image'>
+                <img src='images/Image (11).png' />
+              </div>
+              <div
+                class='banner-sale position-absolute d-flex align-center justify-content-center'
+              >
+                $299
+              </div>
+            </div>
+          </div>
+            <div class='swiper-slide  position-relative'>
+            <div
+              class='banner-list d-flex  align-center'
+            >
+              <div class='banner-intro'>
+                <div class='banner-tt'>
+                  THE BEST PLACE TO PLAY
+                </div>
+                <div class='banner-name'>
+                  TV SAMSUNG
+                </div>
+                <div class='banner-ct'>
+                  Save up to 50% on select Xbox games. Get 3 months of PC Game Pass for $2 USD.
+                  
+                </div>
+                <button class='btn shop-now'>
+                  <a class='btn-title' href=''>
+                    <span>
+                      SHOP NOW
+                    </span>
+                    <span class='icon'>
+                      <svg
+                        xmlns='http://www.w3.org/2000/svg'
+                        width='24'
+                        height='24'
+                        viewBox='0 0 24 24'
+                        fill='none'
+                      >
+                        <path
+                          d='M3.75 12H20.25'
+                          stroke='white'
+                          stroke-width='1.5'
+                          stroke-linecap='round'
+                          stroke-linejoin='round'
+                        ></path>
+                        <path
+                          d='M13.5 5.25L20.25 12L13.5 18.75'
+                          stroke='white'
+                          stroke-width='1.5'
+                          stroke-linecap='round'
+                          stroke-linejoin='round'
+                        ></path>
+                      </svg>
+                    </span>
+                  </a>
+                </button>
+              </div>
+              <div class='banner-image'>
+                <img src='images/tv-png-television-png-image-1060.png' />
+              </div>
+              <div
+                class='banner-sale position-absolute d-flex align-center justify-content-center'
+              >
+                $299
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <div class='b-right'>
     </div>
   </div>
 </div>

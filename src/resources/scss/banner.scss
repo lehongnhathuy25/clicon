@@ -1,0 +1,79 @@
+.banner{
+    padding: 2.4rem;
+    .container{
+      display: flex;
+    }
+    .b-left{
+        min-height: 52rem;
+        width: 70%;
+        
+    }
+    &-intro{
+        max-width: 35.6rem;
+    }
+    
+    &-image{
+        img{
+            max-width: 30.6rem;
+            max-height: 40.8rem;
+            object-fit: cover;
+
+        }
+    }
+    &-tt{
+        color: var(--blue-primary);
+        font-weight: 600;
+        line-height: 2rem;
+        // margin-bottom: .4rem;
+    }
+    &-list{
+        width: 100%;
+        height: 100%;
+        background: #e5e6e7;
+        padding: 0 5.6rem;
+    }
+    &-name{
+        font-size: 4.8rem;
+        font-weight: 600;
+        line-height: 5.6rem;
+    }
+    &-ct{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 2.4rem; 
+        color:#475156;
+        margin-bottom: 2.4rem;
+        overflow: hidden;
+        display: block;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        text-overflow: ellipsis;
+    }
+    &-sale{
+        width: 10rem;
+        height: 10rem;
+        background-color: var(--blue-primary);
+        border: .2rem solid #fff;
+        border-radius: 10rem;
+        top:5.6rem;
+        right:  5.4rem;
+        color: white;
+        font-weight: 600;
+        font-size: 2.2rem;
+    }
+    .shop-now{
+        span{
+            color: white !important;
+            margin-right: .8rem;
+        }
+    }
+    .swiper-pagination{
+     text-align: left;
+     padding: 5.6rem;
+      
+    }
+}
+.btn-title{
+    border-radius: 3px;
+}
