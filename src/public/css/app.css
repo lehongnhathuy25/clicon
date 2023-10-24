@@ -1,3 +1,42 @@
+.admin-sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 26rem;
+  z-index: 2;
+  width: 260px;
+  background: #fff;
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.admin-container {
+  position: relative;
+  float: right;
+  width: calc(100% - 260px);
+  padding: 4rem;
+}
+.admin .list-menu {
+  width: 100%;
+  padding: 3.2rem;
+  min-height: 20rem;
+  background-color: #fff;
+  box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03), 0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05), 0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+}
+.admin .table {
+  margin-top: 2.4rem;
+  width: 100%;
+}
+.admin .table thead {
+  width: 100%;
+}
+.admin .table thead tr {
+  width: 100%;
+}
+.admin .table tbody tr {
+  text-align: center;
+}
+
 .header-top {
   background-color: var(--black-primary);
   height: 8rem;
