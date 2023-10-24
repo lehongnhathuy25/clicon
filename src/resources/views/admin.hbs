@@ -1,0 +1,46 @@
+<div class="admin">
+    <div class="admin-sidebar">
+            <div class="admin-logo">
+
+            </div>
+    </div>
+    <div class="admin-container">
+        <div class="list-menu">
+            <div class="d-flex justify-content-between">
+
+            <h3 class="list-menu-title">Categories</h3>
+            <a class="list-menu-title">ADD</a>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr  class="">
+
+                    <th role="row">
+                        category ID
+                    </th>
+                     <th role="row">
+                        name
+                    </th>
+                    <th role="row">
+                        status
+                    </th>
+                     <th role="row">
+                        action
+                    </th>
+                    </tr>
+                </thead>
+                <tbody role="row">
+                    {{#each categories}}
+                    <td>{{this.category_id}}</td>
+                     <td>{{this.category}}</td>
+                    <td>{{this.status}}</td>
+                    <td>
+                        <a href="" />Update<a>
+                        <a  />Delete</td>
+                    </td>
+                    {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
